@@ -1,0 +1,202 @@
+
+.HOME{
+ 
+    background-image: url(/img/events-heavenly-header.jpg);
+    /* filter: brightness(70%); */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+      
+}
+.HOME h1{
+  
+    font-size: 60px;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.4);
+}
+#sideBar{
+    display: flex;
+    /* background-color: teal; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+    left: 0;
+    transition: 0.5s;
+   
+
+}
+.sideBar-inner{
+    background-color:  black;
+    padding: 40px ;
+}
+#sideBar i {
+    transform: translateY(100px);
+    background-color: #01060c;
+    padding: 10px ;
+    align-self: flex-start;
+    color: white;
+    font-size: 1.5rem;
+   
+}
+#sideBar a{
+    padding: 50px ;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+#closebtn{
+     position: absolute;
+    top: 0;
+    left:-50px ;
+    font-size: 40px;
+    margin-left: 10px;
+    
+}
+
+
+ a{
+    text-decoration: none;
+    color: white;
+}
+ 
+
+ul{
+    list-style-type: none;
+} 
+
+
+
+
+
+#sideBar a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+   
+  
+} 
+
+
+.inner-item{
+    
+    padding: 30px;
+    background-color: #ccc;
+    display: none;
+    line-height: 4rem;
+}
+.inner h3{
+    padding: 20px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+#countSection{
+    background-image: url(/img/invitation-2508607__340.jpg);
+    /* filter: brightness(70%); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.time{
+    font-weight: 500;
+    font-size: 30px;
+    padding: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+}
+.col-md-3{
+    margin-top: 50px;
+}
+
+
+
+
+/* 
+
+ .CONTACT {
+  
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative!important;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+
+ .CONTACT .layer{
+    background-color:var(--main-color);
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    padding: 0;
+}
+
+section  .titel-Ser .line-contact{
+     
+    background-color: var(--main-color);
+    width: 40%;
+    height: 5px ;
+    
+} */
+
+
+
+ .ico-circle2{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid gray;
+    /* box-shadow: 0 0 0 5px #366caa; */
+   
+}
+.ico-circle2 i{
+    color: var(--head-color);
+    color: gray;
+
+}
+.social-icon.ico-circle2 :hover{
+   
+
+}
+ .social-icon .ico-circle2:hover {
+   
+    transition: all 1s;
+     background-color: rgb(177, 24, 24);
+    box-shadow: 0 0 0 5px #cde1f8;
+    
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
